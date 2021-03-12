@@ -24,9 +24,34 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+
+              "src/assets/stylesheets/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/stylesheets/rzj/securitySettings/securitySettings.css",
+              "src/assets/stylesheets/rzj/securitySettings/cam.zh.7ceda6fc1a.css",
+              "src/assets/stylesheets/rzj/rzj-style.css",
+              "src/assets/stylesheets/font-awesome/css/font-awesome.min.css",
+              "src/assets/stylesheets/Ionicons/css/ionicons.min.css",
+              "src/assets/stylesheets/dist/css/AdminLTE.css",
+              "src/assets/stylesheets/bootstrap-switch.css",
+              "src/assets/javascripts/zTreeBootstrap/css/bootstrapztree.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/index.js",
+              "src/assets/javascripts/plugins/bootstrap-table.js",
+              "src/assets/javascripts/bootstrap-table-zh-CN.js",
+              "src/assets/javascripts/dist/js/adminlte.min.js",
+              "src/assets/javascripts/bootstrap/dist/js/bootstrap.js",
+              "src/assets/javascripts/modal.js",
+              "src/assets/javascripts/plugins/treeview/bootstrap-treeview.js",
+              "src/assets/javascripts/zTreeBootstrap/js/jquery.ztree.core.js",
+              "src/assets/javascripts/bootstrap-daterangepicker/daterangepicker.js",
+              "src/assets/javascripts/bootstrap-daterangepicker/datetimepicker.js",
+              "src/assets/javascripts/bootstrap-daterangepicker/datepicker.js",
+              "src/assets/javascripts/bootstrap-daterangepicker/bootstrap-datetimepicker.zh-CN.js",
+              "src/assets/javascripts/plugins/bootbox.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +144,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Property"
+    }
+  },
+  "defaultProject": "Property",
+  "cli": {
+    "analytics": "df0b3284-2e51-4d15-a453-585ba405c5ac"
+  }
 }

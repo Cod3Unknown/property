@@ -1,0 +1,73 @@
+.login-wx-sm{
+    /*position: relative;*/
+    /*position: absolute;*/
+    margin-bottom: -10%;
+    float: right;
+    /*margin-left: ;*/
+    /*left: 36.8%;*/
+    /*left: 21%;*/
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    overflow: hidden;
+    border:0;
+    background-image: url(login/qrCodeImg.svg);
+    background-position-x: right;
+    background-position-y: top;
+    background-size: 100%;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: 100%;
+}
+.login-wx-sm1{
+    position: relative;
+    left: 65.8%;
+    display:none;
+    color: #ff1f30;
+    margin-top: 8%;
+    cursor: pointer;
+}
+
+.qrCodeDiv{
+    display:none;
+    padding-bottom: 212%;
+}
+
+.login-box-body{
+    background: #fff;
+    padding: 40px 20px 20px 20px;
+    border-top: 0;
+    color: #666;
+}
+
+.tips-body{
+    width: auto;
+    height: auto;
+}
+.tips-p{
+    text-align: center;
+}
+.tips-a{
+    color: red;
+}
+.impowerBox .qrcode {width: 65%;margin-left: 0;margin-top: 65px}
+.impowerBox .title {display: none;}
+.impowerBox .info {}
+.status_icon {display: none}
+.impowerBox .status p {
+    font-size: 13px;
+    margin-right: 24%
+}
+.impowerBox .status_icon {
+    margin-right: 40px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    font-weight: 400;
+    margin-right: 0%
+}
+.impowerBox .status {text-align: center;padding-left: 20%;}

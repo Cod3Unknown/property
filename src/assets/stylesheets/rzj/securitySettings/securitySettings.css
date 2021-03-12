@@ -1,0 +1,65 @@
+
+.app-cam-alert {
+    font-size: 12px;
+    line-height: inherit;
+    padding: 15px 20px;
+    vertical-align: middle;
+    color: #0046b9;
+    border-width: 0;
+    border-radius: 0;
+    background: #d5e7ff;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    /*display: -webkit-box;
+    display: flex;*/
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    align-items: flex-start;
+}
+.app-cam-checkbox-custom{
+    margin: 0px 0 0;
+}
+.limit-ip__nameapce .limit-ip__tag__layout__empty {
+    padding: 8px 12px;
+}
+.limit-ip__nameapce .limit-ip__tag__layout {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.limit-ip__nameapce .limit-ip__tag__item.limit-ip__tag__ip {
+    min-width: 108px;
+}
+.limit-ip__nameapce .limit-ip__tag__item {
+    position: relative;
+    padding: 8px;
+    text-align: center;
+}
+.limit-ip__nameapce .limit-ip__tag__item:not(:last-child)::after {
+    position: absolute;
+    content: '';
+    right: 0;
+    height: 50%;
+    border-right: 1px solid #d6d6d6;
+}
+.limit-ip__nameapce .limit-ip__tag__layout {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.limit-ip__nameapce .limit-ip__tag__background {
+    background-color: #fafafa;
+}
+.tea-table__body {
+    border-bottom: 1px solid #e5e5e5;
+    overflow: auto;
+}
+
+
+

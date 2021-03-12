@@ -1,0 +1,39 @@
+
+<div class="container" style="width: 100%">
+  <div class="row">
+    <div class="col-md-12">
+      <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="container" style="width: 100%" >
+          <div class="navbar-header">
+            <a class="navbar-brand " >物业管理系统</a>
+          </div>
+          <div id="navbar" class="navbar-right">
+            <a class="navbar-brand" >当前用户：{{username}}</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="row" style="padding-top: 45px">
+    <div class="col-md-3">
+      <div class="list-group">
+
+        <a href="#" class="list-group-item active ">
+          系统菜单
+        </a>
+
+        <a  class="list-group-item" style="cursor: pointer" id="umain"  routerLink="/uindex/umain" >主页</a>
+        <a  class="list-group-item" style="cursor: pointer" id="uinfo" routerLink="/uindex/uinfo">用户信息</a>
+        <a  class="list-group-item" style="cursor: pointer" id="urepair" routerLink="/uindex/urepair">维修</a>
+        <a  class="list-group-item" style="cursor: pointer" id="uaccusation" routerLink="/uindex/uaccusation">举报</a>
+        <a  class="list-group-item" style="cursor: pointer" (click)="logout()">退出登录</a>
+      </div>
+    </div>
+    <div class="col-md-9">
+
+      <router-outlet></router-outlet>
+
+    </div>
+  </div>
+
+</div>
